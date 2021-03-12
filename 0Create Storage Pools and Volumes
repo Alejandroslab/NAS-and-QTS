@@ -1,0 +1,27 @@
+For the first installation
+remember to connect your lan cable to the first plug
+
+boot the NAS
+
+follow the instructions
+QTS will boot
+
+in QTS open disk and storage
+
+then create 'new storage pool'
+
+then there are several ways to design your NAS in terms of storage
+
+remember just a few things:
+
+Once you create a storage pool (and therefore a RAID, as it will create it automatically)
+all the disk inside cannot be unmerged!
+Therefore think twice about your final design in terms of RAID because there is no 'undo' button
+
+After creating the pool you can create inside all the volumes you want!
+Volumes can also be formatted (with the button 'Remove')
+
+in the first Volume you will create QTS will create all the users folder,
+home, homes and the other system folders.
+
+You will be able to access them from your network!

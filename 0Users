@@ -1,0 +1,7 @@
+you can set quota size for users and also privileges to access some folders
+
+REMEMBER! when you as admin will create a folder in their home folder they will not
+be able to change or delete it until you set the permissions accordingly!
+
+You can hide to your users the shared folders you want going to properties
+and checkin 'Hide Network Share'

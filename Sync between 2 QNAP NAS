@@ -1,0 +1,7 @@
+It is recommended to use RTRR server event if it is proprietary
+
+(rsync is also present)
+
+You have to enable it in HBS3 then 'Services' and then 'RTRR Server'
+
+After enable it you can create backups between NAS

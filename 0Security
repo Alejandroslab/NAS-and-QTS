@@ -1,0 +1,7 @@
+In terms of security, after implementing the backup strategy for deaticvate
+remember to implement your network security measure!
+this means that you have to know fully how is designed your network and the potential threat!
+
+design and impleement your threat model.
+
+you can test it with nmap etc

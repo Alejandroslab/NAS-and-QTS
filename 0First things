@@ -1,0 +1,23 @@
+Never ever set 'Encryption'
+
+even is not safe. it is happened in the past that after power failure
+the disk could not be decrypted even if the password is correct!
+
+therefore for your data safety leave it unencrypted!
+
+____________________
+
+Design and implement you backup strategy a<ccording to your usage!
+
+this is really important
+
+____________________
+for RAID remmeber also to use disk with the same size
+if in fact you have disks with different sizes, the RAID will be done on the
+disk with less capacity leaving the bigger one with excessive space that
+will not be availble in any way! therefore a waste of space (and also money)
+
+______________________
+
+Before doing any critical operation like, unmounting, hotswapping etc
+be sure to have backups in place!

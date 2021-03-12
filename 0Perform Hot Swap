@@ -1,0 +1,8 @@
+You can eject disks any time
+If they are failed just unplug them, wait 20 seconds to the hd to cool down
+then eject it and replace it with the new one.
+
+It wil beep twice and a red light will appear.
+
+After you replace the HD it will restart to rebuild the RAID automatically
+therefore you should not lose any data

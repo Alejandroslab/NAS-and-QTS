@@ -1,0 +1,20 @@
+When you want to rename a Shared Folder be careful!
+
+Remember to SPECIFY the path!
+example:
+
+Label: 'Volume Server'
+current path: '\Volume Server'
+
+if I want to rename it, I have to change both the label and the current path!
+
+Label: 'My Volume'
+new path: 'My Volume'
+
+otherwise it will happen something like this:
+
+Label: 'My Volume'
+current path: '\Volume Server'
+
+in this case 'My Volume' is just a renamed shortcut for the real folder
+that is still 'Volume Server'

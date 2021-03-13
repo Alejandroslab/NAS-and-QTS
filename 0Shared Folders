@@ -1,0 +1,43 @@
+REMEMBER! (for windows)
+When you add a new user add it WITHOUT SPACES inside the like:
+
+'Stephen Contoso'
+
+could become
+
+'Stephen.Contoso'
+
+
+if it happens that an user has spaces inside its name probably you will not
+be able to access to files within File Explorer unless you do not add:
+
+'Stephen%SPACE%Contoso'
+
+anyways if you set correct permissions to 'Network Services' it should work
+even with spaces in the name
+
+it will support dots.
+If you access in File Explorer to network folders with a user
+without saving it, you will need to reboot to clean the temporary user
+
+
+_______________
+
+
+In WIndows you can change or remove user authentication for network shares
+in the 'Credential Manager'
+
+you can find it in home typing 'Credential Manager'
+____________
+
+other thing to consider. as your organization complexity will expand
+you could be not able to remember all the permissions given if you
+have done that based on username
+
+it is more straightforward to use groups in which adding usernames
+from time to time!
+
+you will find 'User groups' inside 'Privilege' in the 'Control Panel'
+
+When creating a new user REMEMEBER! leave the permissions to use the 'Network Services'
+or you will not be able to use the credentials in File Explorer in Windows

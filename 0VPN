@@ -4,7 +4,8 @@ you will be able to connect!
 REMEMBER! you cannot set at the same time VPN Server and VPN Client (is a limitation by QNAP.. but technically it can be done)
 
 REMEMBER!
-When you connect to your vpn client in the local machine you will not be able to access to NAS resources with the hostname
+When you connect to your vpn client in the local machine (that is a
+VPN provider like ExpressVPN, NordVPN etc) you will not be able to access to NAS resources with the hostname
 like calibre server
 
 myserver:8080

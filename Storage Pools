@@ -1,0 +1,5 @@
+DO NOT PUT more than 1 RAID ground inside a Storage Pool.
+As stated in the QNAP User guide:
+
+If a storage pool contains multiple RAID groups and one RAID group fails, all data in
+the storage pool will be lost. Ensure that you have a complete data backup plan.

@@ -1,0 +1,15 @@
+QNAP NAS supports hot-swap
+
+This means that when a disk fails just unplug it
+without powering off the NAS.
+
+when a disk fails RAID will pass to the status o 'deprecated'
+
+
+
+It will beep and afterwards you can plug the new ones
+
+Then the NAS will automatically rebuild the NAS.
+
+if for some reason it will not start automatically you have to do it otherwise if
+another disk will fail all the RAID array will break and you will lose data,

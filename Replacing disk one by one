@@ -1,0 +1,5 @@
+Look for the functionaly: 'replace disk one by one' to remove disks FROM
+a raid array
+
+You will need this when you upgrade the capacity of your disk.
+When like you have for disks of 1 tb and want to upgrade to 4 disk of 2 tb.

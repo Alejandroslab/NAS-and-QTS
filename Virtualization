@@ -1,3 +1,6 @@
 Remember that not all NAS can perform virtualization
 
 therefore check compatibilityy first!
+
+if the virutalized machine has some keyboard issues just close and reopen the
+window of the virtualized OS (very frequent problem at the momentg)

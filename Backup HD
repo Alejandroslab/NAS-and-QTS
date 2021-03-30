@@ -1,0 +1,5 @@
+the external HD must be only NTFS or exFat.
+No other filesystem allowed and it MUST NOT BE ENCRYPTED
+
+you can encrypt the backup before copying to the HD with the proprietary software
+Like HBS3 if you use it (just set 'encrypt client side')

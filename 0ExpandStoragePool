@@ -1,0 +1,20 @@
+if you want to add another drive to a storage pool
+
+BE CAREFUL! this operation is irreversible
+
+open Storage & Snapshots
+
+select the storage pool you want to expand
+
+click on manage
+
+
+then select 'expand pool'
+
+add new disk to an existing RAID Group and select Raid Group 1
+
+select the new disk
+
+click on next
+
+then finally click on expanding

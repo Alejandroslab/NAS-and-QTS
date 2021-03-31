@@ -1,6 +1,32 @@
-Remember that not all NAS can perform virtualization
+Remember that NOT all NAS can perform virtualization
 
 therefore check compatibilityy first!
 
 if the virutalized machine has some keyboard issues just close and reopen the
 window of the virtualized OS (very frequent problem at the momentg)
+
+for example: cpu like Annpurna cannot peform virutalization.
+Even if you add more ram Annapurna will not let you virtualize.
+to virtualize you need intel cpus.
+
+anywyas to get a copy of let's say windows
+
+dowload virutalization app from qnap store
+
+click on create vm
+
+set data and ram
+
+in cd image point to your .iso
+
+hdd location is the location in which the system will be installed
+(don't worry it will appear just another .iso file)
+
+the app will also automatically add a virtual switch to get internet working
+
+start the vm and install as in any other machine
+
+
+in windows activate Remote deskotp from settings
+
+now you can access from anywhere in your network to the VM inside the NAS

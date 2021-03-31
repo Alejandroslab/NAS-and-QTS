@@ -10,6 +10,18 @@ in QTS open disk and storage
 
 then create 'new storage pool'
 
+A storage pool is a group of volumes that you can separate
+
+volumes represents single parts of the disk
+
+QNAP NAS will create RAID according to the number of disk you select
+for the storage pool
+The size of the disk will be trimmed (half of the space will be necessary for the RAID to work)
+
+there will be also some space reserved for Snapshots
+
+
+
 then there are several ways to design your NAS in terms of storage
 
 remember just a few things:
@@ -25,3 +37,31 @@ in the first Volume you will create QTS will create all the users folder,
 home, homes and the other system folders.
 
 You will be able to access them from your network!
+
+
+you can also increase the size of the volumes accordingly to the total
+size of the storage pool (just try not to get to the maximum size)
+this could be necessary if you need more space and you see that
+there is too much Unallocated space.
+
+click on storage pools->volumes->manage
+
+now click on Resize Volume
+
+set your desired size
+
+NEVER EXCEED THE SIZE OF THE ENTIRE STORAGE POOL
+
+example
+
+storage pool size: 3tb
+volume 1: 1tb
+volume 2: 1 tb
+
+you can expand let's say the volume 1
+
+volume 1: 1,5 tb
+volume 2: 1 tb
+
+but the total sum must not exceed the 3tb of storage pool or neither
+get closer to the maximum size.

@@ -1,0 +1,70 @@
+Use QVPN. Go to L2TP tab and just put 'enable'
+
+Remember the Preshared Key!
+
+go to mycloud link app on qnap configuration then activate the services.
+You will see an IP that could be used as substitute of myqnapcloud.com domain (something like 93.29.. etc)
+
+------------------
+On the same QVPN window go to VPNClient->VPN Connection Profiles
+Click Add->L2TP
+
+On Server Address insert: 10.2.0.2 (don't insert myqnapcloud.com or it will not work. It should be internal IP)
+
+Username and password: just use the ones that are the same of the user that you want to have access.
+
+Leave authentiation as MS-CHAPv2.
+Leave preshared key as QNAP or change it (you have to remember this).
+Leave checked 'Reconnect when the VPN connection is lost'
+
+Click apply
+
+On the right side of the table thtat will appear click the clip icon that says 'Connect'
+
+Now from your server you are done.
+
+Go to your router and open the ports indicating the IP of the NAS.
+(see forwarding ports)
+------------------
+
+LT2P PORTS:
+UDP: 500, 1701, 4500
+
+do not open port 8080!
+
+
+------
+
+You can then set the users tha can access to the vpn
+VPN Server -> Privilege Settings
+
+Click on 'Add VPN Users' and add the users
+
+
+------
+
+
+On the client
+
+Create a new VPN connection
+
+
+
+Set as server: …..myqnapcloud.com or the public IP indicated in the app mycloudlink
+(the public IP changes accordingly to the policies of your service provider)
+
+Account: the user that has access to qnap
+Password: the passowrd of that user
+
+Secret (in iOS): put the Preshared Key ( QNAP is the defautl one)
+
+
+you can also set google DNS 8.8.8.8 to get internet
+sometimes the default dns may not work
+
+
+
+You do not have to setup VPN connection profiles in VPN Client tabn in QVPN!
+In fact if you set up with the same configurations of the VPN server. Internet on the clients (outside the local network) will not be available.
+
+In that case full tunnel will not work (it will work only split tunneling though)

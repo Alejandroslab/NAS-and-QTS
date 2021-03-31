@@ -1,0 +1,44 @@
+You can use your server as Default Gateway
+this means that all your traffic when
+connected to the server will pass through
+your server (your connected device will get the public
+IP of your server)
+
+this classic and default method is called 'full tunnel'
+
+REMEMBER in the qnap nas vpn client and server cannnot
+be turned on at the same time (they will not work
+although there is not any limit to this. Is just
+a decision of qnap)
+
+in mac you have to set up full tunnelling
+
+in your vpn setting click on advanced
+and check 'Send all traffic'
+
+using full tunnel you may want to set up
+
+google dns (8.8.8.8)
+
+
+SPLIT tunneling
+to enable split tunneling in ios
+
+uncheck 'Send all traffic'  in vpn setting
+the same for mac
+
+
+On windows you have to go on settings->network ->VPN-> change adapter options -> click right on the
+vpn connection created Then
+->Properties->Networking->Select 'IPV4'
+->select Properties->
+select Advanced->
+e uncheck "Use default gateway on remote network" .
+
+Confirm clicking ok
+
+Now you will use for internet your own connection
+having at the same time the possibilty to access
+to all the resources of your remote network
+
+REMEMBER split tunneling is not safe in unsafe connections like public wifi's

@@ -1,0 +1,25 @@
+if you have a .qdff backup and HBS cannot complete
+backup because the disk is full you need to delete manually
+some versions.
+This happens when you set a number excessively high
+of retained versions when your disk size is not that
+huge.
+
+The problem is that qdiff extension is not easy to understand
+(to unecrypt it you have to use a tool from qnap)
+
+anyways to free up some space if you wish to delete your
+older version:
+
+open File Station
+open your external disk
+then open 'dedup' folder and then open 'vault'
+
+vault is the folder in which all your files are archived.
+
+You have now to order it by modified date.
+
+You can proceed to delete the oldest folders and free up space
+
+HBS3 will then recognize the backup as usual and will complete
+your new backup

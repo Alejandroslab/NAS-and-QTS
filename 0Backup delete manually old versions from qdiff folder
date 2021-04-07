@@ -23,3 +23,8 @@ You can proceed to delete the oldest folders and free up space
 
 HBS3 will then recognize the backup as usual and will complete
 your new backup
+
+Even QNAP QuDedup Extract Tool will work perfectly.
+The only thing to take care of is that you have to delete
+only the folder regarding the same date.
+Just don't delete the folder with other dates otherwise it will be a mess

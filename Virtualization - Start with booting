@@ -1,0 +1,4 @@
+To start a VM when the nas boot up
+select your VM go to settings->Others
+in 'Autostart' select 'Delay'
+then click on 0

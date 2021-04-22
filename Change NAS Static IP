@@ -1,0 +1,23 @@
+If you have set your IP as static in you router
+
+you can change it from your router then you have to access to your NAS
+
+with the previous address go to
+'Network and Switch', click on 'Switch', click on the vertical 3 dots on your 'Virtual Switch' and click
+on 'Renew Ip Address'
+
+the NAS will prompt you with the IP set up in your router
+click ok
+done!
+
+REMEMBER! you can set  your IP as static also in the NAS settings but this is not recommendable
+because of order.
+If you setup static ip locally then is better to setup your static ip locally on all your machine
+but this is not a good idea because if you mix, that is set a machine with a static IP locally and
+another in the router
+then you can forget which of them has been set up locally and which of them has been
+set up as static on your router
+
+therefore it is better to centralize all your desired static ip in your router.
+
+You will get a list with all the devices with the IP static set up.

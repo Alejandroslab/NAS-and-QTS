@@ -1,0 +1,63 @@
+After you change your subnet remember that the QNAP will stay with its old
+ip address
+
+You will not be able to access from your new subnet
+
+let's say you have this previous ip range
+
+192.168.0.1 - 192.168.0.255
+
+and now you have changed your network (subnet) to
+
+192.168.67.1 - 192.168.67.255
+
+now your nas has remained with the old IP. You have to refresh it
+
+in order to do that from a machine just go to your network settings and change your DHCP setting
+from automatic to manual
+
+(This solution is to not have to change back all your ip addresses. Doing this you will temporary
+change the ip address of 1 pc and be able to access the old subnet. Anyways another solution is to change
+all the range ips from your router and set the ip in your NAS as manual with the ip of your new subnet that
+you have chosen )
+
+in windows open setting, network, click on properties on your adapter (wifi or eth.)
+then go to IP settings (Ip assignment) click on 'Edit'
+
+click on manual
+select ipv4
+
+then put an address that is included in the old range (in this case in this range 192.168.0.1 - 192.168.0.255)
+be careful to not choose an IP that is already reserved (that means that is been set as static for another device)
+
+in 'subnet prefix lenght' just type 24
+in Gateway type your NEW gateway address that is the new ip address of your router
+(that in this case falls in this range: 192.168.67.1 - 192.168.67.255)
+
+click ok.
+
+now you can access to your NAS in the old subnet
+
+now let's refresh the IP in the QNAP
+access in your qnap (you can also type in your old ip address in the browser bar)
+
+then go to 'Network & Virtual Switch'
+Click on 'Virtual Switch'
+
+click on the vertical three dots in your 'Virtual Switch setting' and click on
+'Renew IP address'
+done!
+
+(remember to check if you have not set up a DHCP server (it should be empty in the settings)  otherwise
+it will make conflict the the router DCHP server)
+
+now exit and go to your system setting, wifi and select DHCP automatic (redo the previous steps)
+
+access to your router to see the new IP (under your new subnet) of your NAS!
+
+done!
+
+now if you have some virtualized machines you have to reboot them in order to update with the new ip address!
+
+In your local machine in windows you have then to reboot your system to make the hostnames
+work (in Mac this is not necessary. everything will update instantly)

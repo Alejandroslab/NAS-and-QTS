@@ -36,7 +36,7 @@ in Gateway type your NEW gateway address that is the new ip address of your rout
 
 click ok.
 
-now you can access to your NAS in the old subnet
+now you can access to your NAS in the old subnet (but you will eventally not have access to internet)
 
 now let's refresh the IP in the QNAP
 access in your qnap (you can also type in your old ip address in the browser bar)

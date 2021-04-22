@@ -64,3 +64,7 @@ now if you have some virtualized machines you have to reboot them in order to up
 
 In your local machine in windows you have then to reboot your system to make the hostnames
 work (in Mac this is not necessary. everything will update instantly)
+
+
+REMEMBER! you have to update your port forwarding rules if you change your subnet!
+In some routers this will not be done automatically (while all the addresses will change just indicating the range of ip's)

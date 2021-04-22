@@ -48,7 +48,8 @@ click on the vertical three dots in your 'Virtual Switch setting' and click on
 'Renew IP address'
 done!
 
-IF THIS NOT WORK YOU HAVE TO REBOOT YOUR NAS
+IF THIS NOT WORK YOU HAVE TO REBOOT YOUR NAS. When trying this your router could stuck
+and it will reboot automatically. This could take some minutes...
 
 (remember to check if you have not set up a DHCP server (it should be empty in the settings)  otherwise
 it will make conflict the the router DCHP server)

@@ -31,12 +31,17 @@ then put an address that is included in the old range (in this case in this rang
 be careful to not choose an IP that is already reserved (that means that is been set as static for another device)
 
 in 'subnet prefix lenght' just type 24
-in Gateway type your NEW gateway address that is the new ip address of your router
-(that in this case falls in this range: 192.168.67.1 - 192.168.67.255)
+
+in Gateway type your OLD gateway address that is the old ip address of your router
+(that in this case falls in this range: 192.168.0.1 - 192.168.0.255)
+
+Doing this you will not have internet access but will have access to the correct subnet in the LAN
 
 click ok.
 
 now you can access to your NAS in the old subnet (but you will eventally not have access to internet)
+
+—————————
 
 now let's refresh the IP in the QNAP
 access in your qnap (you can also type in your old ip address in the browser bar)

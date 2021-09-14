@@ -1,0 +1,18 @@
+An easy way to share your files within your NAS to an external user is to use the myqnapcloud service
+
+You have to activate it within the app
+
+Then go to 'Accesso control' and add the e-mail of the external user
+
+Click on 'Apply' (remember to click on Apply! otherwise it will not send any link)
+
+The external user will receive an e-mail
+
+
+He will have to sign up to myqnapcloud and then after signing in on the left side he will see your NAS under Friend's Device
+
+If he clicks on the device he will then be asked an user and a password
+
+In this case this user and this password are some user that has previously been created inside the NAS in Control Panel->Users
+
+DONE!

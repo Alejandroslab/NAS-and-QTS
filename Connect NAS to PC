@@ -1,0 +1,6 @@
+How to set up a direct connection
+
+
+    Connect the NAS to the PC/Mac with an ethernet cable directly. Suggest using an unused LAN port on the NAS.
+
+    Set up Static IP on PC/Mac with IP address/Submask/Gateway to be 169.254.100.99 /255.255.0.0/Leave_Empty

@@ -1,0 +1,7 @@
+.qvm is the extension for the vm images of QNAP Nas
+
+the .qvm image contains the images of the partitions.
+ with 7zip you can extract the img files of the partitions.
+ Using qemu-img you can then convert the partition in VMDK,
+ and then you can build a new VMWare linux box
+ and then mount inside the vmdk volume (that is not bootable).

@@ -1,0 +1,52 @@
+First delete the file appraiser.dll from the executable
+Download Anyburn and open the ISO
+Click on the folder 'Sources'
+Locate ‘appraiserrs.dll’ on your right. Click and select the file.
+
+Now click on ‘Remove’ at the top.
+
+Click on ‘Yes’ to confirm your choice now.
+Click on next
+
+Enter a new name for your new ISO. This will allow you to save the modified in the same location on your local storage.
+Do not make any changes to the ISO configuration and click on ‘Create Now’.
+The process will now begin and you can track the progress for the same at the bottom of your screen.
+
+
+Run the VM
+
+Before clicking on 'Install'
+
+press Shift + F10
+
+a cmd will open
+
+type regedit
+
+go to:
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\Setup
+
+Create a new key (that is a folder) and named it LabConfig
+
+Then inside this folder leave the 'Default' file
+and create 4 New DWORD 32 bit and rename it as:
+
+BypassTPMCheck
+BypassCPUCheck
+BypassRAMCheck
+BypassSecureBootCheck
+
+Set all the values to 1 and leave Hexadecimal
+
+Now close the registry and the system console.
+Then, click on the cross in the installation window.
+In the pop-up dialog select Ok to confirm that you want to exit the installation.
+
+Again, you will find yourself at the beginning. Use the Install Now button
+
+Unlike what has happened before, instead of the error you will jump to the dialog box window that shows the Windows 11 contract. We continue as follows:
+
+    Accept the terms of the Windows 11 contract.
+    Use the Custom option: Install Windows only (advanced) to continue.
+    Create a new partition and select it to install Windows 11 on it.
+    Finally, the installation process will start.

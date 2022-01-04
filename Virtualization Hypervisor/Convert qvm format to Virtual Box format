@@ -1,0 +1,18 @@
+You can convert your VM that in the QNAP environment has the .qvm extension
+with the .ovf extension (that will allow you to import the machine in Virtualbox)
+
+
+To do that first turn off the vm
+Then inside your Overview view click on your desired VM and click on 'Export VM'
+
+Then select .ovf format and uncheck 'Include ISO image' or 'Compress image'
+
+then select the location and click Start
+
+Now two files will be created the .ovf file that will be a very small file
+and a .vdmk file that will be the bigger file
+
+Then open virtual box click on import select the .ovf file and let it import.
+It will create a copy of the vdmk file on the default path:
+
+C:\\Users\MyUser\VirtualBox VMs

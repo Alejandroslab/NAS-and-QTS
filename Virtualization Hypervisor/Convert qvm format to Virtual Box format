@@ -5,14 +5,28 @@ with the .ovf extension (that will allow you to import the machine in Virtualbox
 To do that first turn off the vm
 Then inside your Overview view click on your desired VM and click on 'Export VM'
 
-Then select .ovf format and uncheck 'Include ISO image' or 'Compress image'
+Then select .ovf format and uncheck 'Compress image'
+
+Then leave checked 'Include ISO image'
 
 then select the location and click Start
 
-Now two files will be created the .ovf file that will be a very small file
-and a .vdmk file that will be the bigger file
+Now two files will be created: the .ovf file that will be a very small file
+and a .vdmk file that will be the bigger file.
 
-Then open virtual box click on import select the .ovf file and let it import.
-It will create a copy of the vdmk file on the default path:
+You can import in VirtualBox only the .ovf file that will look for the vdmk file
+automatically
+
+To do that open virtual box click on import select the .ovf file and let it import.
+It does not matter if the .ovf is located on a newtork folder as the import
+function will create a copy of the virtual machine on the default path:
 
 C:\\Users\MyUser\VirtualBox VMs
+
+More specifically it will create a copy of the .ovf file and the .vdmk file.
+
+LAST STEP!
+REMEMBER!
+Before booting up the machine:
+You have to go to settings>system >and check 'Enable I/O APIC'
+This is valid if the machine that you want to import is a Windows machine

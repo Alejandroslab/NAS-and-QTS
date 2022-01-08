@@ -30,3 +30,11 @@ REMEMBER!
 Before booting up the machine:
 You have to go to settings>system >and check 'Enable I/O APIC'
 This is valid if the machine that you want to import is a Windows machine
+
+________
+Enable Networking:
+
+Go to settings->Network
+on 'Advanced'
+on 'Adapter Type' try to select a different adapter such as 'Intel PRO 1000'
+otherwise with PCNet FAST it may not work

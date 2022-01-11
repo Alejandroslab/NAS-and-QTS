@@ -1,0 +1,17 @@
+First copy the folder that is located in
+
+C:\\Users\MyUser\VirtualBoxVM
+
+Inside the Guest OS folder you will find a .vbox file and a .vdmk file (much larger)
+
+Open virtualization station
+Select 'Import'>'Convert Image'
+
+Select the .vdmk and a destination folder in which save the new image converted
+
+Now you can just create a new machine and link the image converted as virtual hard drive.
+This image will have extension .img
+
+Boot the machine and done!
+
+You may need to adjust some settings (video card most of the times)

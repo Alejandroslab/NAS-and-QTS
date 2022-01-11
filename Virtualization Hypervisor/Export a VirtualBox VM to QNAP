@@ -15,3 +15,7 @@ This image will have extension .img
 Boot the machine and done!
 
 You may need to adjust some settings (video card most of the times)
+
+REMEMBER! You do not need to uninstall the VirtualBox Guest additions
+You do not need to set the same RAM and CPU size
+If you have installed the VirtualBox Extension Pack (that is different from the Guest Additions) then it may not boot

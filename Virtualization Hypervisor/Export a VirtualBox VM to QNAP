@@ -9,8 +9,11 @@ Select 'Import'>'Convert Image'
 
 Select the .vdmk and a destination folder in which save the new image converted
 
-Now you can just create a new machine and link the image converted as virtual hard drive.
+Now you can just create a new machine and link the image converted as virtual hard drive (HDD)
 This image will have extension .img
+(You do not need to indicate the CD image (ISO))
+
+
 
 Boot the machine and done!
 

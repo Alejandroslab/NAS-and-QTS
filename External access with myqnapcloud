@@ -1,0 +1,16 @@
+First go to myqnapcloud and then click on 'Access Control'
+add an user indicating an e-mail
+
+Rememeber that the user must register on the website myqnapcloud.com with the e-mail that you indicate in the settings 
+
+And done!
+
+After the user completes the registrations it will be linked to the QNAP NAS
+Anyways to have access to the content they need to have credentials that you set up in 'Users' in the QNAP Settings 
+Therefore they should have a local account in the NAS that will be used to have access to the content
+
+To sum up:
+the external user need to register with an email
+He or she also must have a local account in the NAS that have to indicate inside myqnapcloud.com (user and password) to have access to the content
+
+and done!

@@ -1,0 +1,15 @@
+RAID Group 1 in dataVoldume is 'not active'" and I can't access my files.
+
+This may happen if you extract your hd and the replug in, after clicking on 'Recovery'
+
+you will get a live hd and also RAID group but will not be able to access to the files
+
+
+the solution to this problem is only accessing via ssh to the machine and then run:
+
+/etc/init.d/init_lvm.sh
+
+if at the end of the process states 'Done' then your drive has been recovered.
+Basically this will init the lvm 
+
+It may happen that alert tresholds have been disabled to all the disks with this script 

@@ -1,0 +1,4 @@
+You can create more adapter from setting on virtualization installation
+Then you need to Enable Virtio-serial that is needed to get the ip in the Virtualization Staation interface.
+
+You have to manually assign the new adapter to the right physical adapter via a network switch 

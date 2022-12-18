@@ -1,0 +1,12 @@
+to enable 10gbps connection (to trasnfer at speed almost to 1-2 gbps between windows machiens)
+you must first install (in windows) QNAP Guest Tools
+just insert the virtual disk and install the program 
+then shutdown the vm 
+
+under the connection select the 10gbps adapter/switch and select as Physical Virtual Adapter 'VirtIO' 
+now power on the vm and done!
+to check speed use 'iperf3' with cmd (just download it point to the folder with cmd and done)
+
+between windows machines speed never exceeds 2 gbps 
+
+from a windows machine to a linux machine speed reach 4gbps.
